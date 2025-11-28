@@ -1,4 +1,5 @@
 import profile from "../assets/profile.png";
+import { Link }  from "react-router-dom";
 
 function Hero() {
   return (
@@ -15,7 +16,9 @@ function Hero() {
           and modern backend technologies.
         </p>
 
-        <button className="hero-btn">VIEW MY PROJECTS</button>
+        <Link to="/projects">
+  <button className="hero-btn">VIEW MY PROJECTS</button>
+</Link>
       </div>
 
       <div className="hero-right">
@@ -26,3 +29,4 @@ function Hero() {
 }
 
 export default Hero;
+
