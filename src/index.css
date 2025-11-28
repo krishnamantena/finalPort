@@ -421,8 +421,8 @@ body {
 /* CONTACT PAGE */
 
 .contact-section {
-  min-height: calc(100vh - 60px);  /* full screen minus navbar */
-  padding: 20px 80px 10px;         /* reduced top/bottom */
+  min-height: calc(20px);  /* full screen minus navbar */
+  padding: 10px 80px 10px;         /* reduced top/bottom */
   background: radial-gradient(
       circle at top right,
       rgba(255, 255, 255, 0.06),
@@ -600,7 +600,7 @@ body {
 /* Textarea height fix */
 .contact-form textarea {
   resize: none;
-  min-height: 90px;
+  min-height: 50px;
 }
 
 
@@ -689,7 +689,7 @@ body {
 
 .about-section {
   min-height: 100vh;
-  padding: 110px 40px 60px;
+  padding: 20px 40px 20px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
